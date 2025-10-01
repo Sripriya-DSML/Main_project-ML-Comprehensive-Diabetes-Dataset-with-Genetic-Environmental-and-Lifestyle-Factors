@@ -1,0 +1,2 @@
+# Main_project-ML-Comprehensive-Diabetes-Dataset-with-Genetic-Environmental-and-Lifestyle-Factors
+This dataset provides an extensive overview of various types of diabetes, including Steroid-Induced Diabetes, Neonatal Diabetes Mellitus (NDM), Prediabetes, Type 1 Diabetes, and Wolfram Syndrome. It includes a wide range of medical, genetic, and lifestyle attributes that are important for understanding the factors contributing to diabetes.
