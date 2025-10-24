@@ -1,5 +1,5 @@
 
-![](https://github.com/pragyy/datascience-readme-template/blob/main/Headerheader.jpg)
+![]Data-Science-Machine-Learning.jpg.webp
 
 # Project Title
 
