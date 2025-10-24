@@ -1,56 +1,56 @@
 # Main_project-ML-Comprehensive-Diabetes-Dataset-with-Genetic-Environmental-and-Lifestyle-Factors
-PROJECT TITLE
+**PROJECT TITLE**
 
 Comprehensive Diabetes Dataset with Genetic, Environmental, and Lifestyle Factors
 
-PROBLEM STATEMENT
+**PROBLEM STATEMENT**
 
 Diabetes mellitus includes multiple subtypes, each with distinct causes and progression patterns. Understanding how genetic, environmental, and lifestyle factors interact is essential for personalized healthcare. This project analyses a comprehensive dataset covering Steroid-Induced Diabetes, Neonatal Diabetes Mellitus (NDM), Prediabetes, Type 1 Diabetes, and Wolfram Syndrome to identify unique and shared risk factors. The challenge is to determine which factor combinations contribute to each subtype, enabling better diagnosis, targeted interventions, and effective disease management.
 
-PROJECT OVERVIEW
+**PROJECT OVERVIEW**
 
 This project uses a comprehensive dataset encompassing multiple diabetes subtypes, including Steroid‑Induced Diabetes, Neonatal Diabetes Mellitus (NDM), Prediabetes, Type 1 Diabetes, and Wolfram Syndrome. The dataset includes medical, genetic, environmental, and lifestyle attributes to provide a holistic view of each patient’s profile. The aim is to help researchers and healthcare professionals understand how these factors interact and contribute to the development and progression of different diabetes subtypes, enabling insights for personalized treatment, risk assessment, and improved disease management.
 
-GOALS
+**Goals**
 
-1.Risk Prediction:
+**1.Risk Prediction:**
 
 Predict likelihood of developing specific diabetes subtypes using genetic, environmental, lifestyle, and medical data
 
-2.Feature Analysis & Interpretation:
+**2.Feature Analysis & Interpretation:**
 
 Identify key factors and their interactions influencing each subtype.
 
-3.Subtype Classification:
+**3.Subtype Classification:**
 
 Build a model to distinguish among the different diabetes types using available data (e.g. classify a new patient into Type 1 vs NDM vs Steroid‑Induced, etc.).
 
-4.Public Health Insights:
+**4.Public Health Insights:**
 
 Inform preventive strategies to reduce risk, especially in genetically susceptible populations.
 
 
-Domain:
+**Domain:**
 
 Healthcare Analytics / Machine Learning for Disease Prediction
 
-Objective:
+**Objective:**
 
 1.Predictive Modelling: Develop a model to identify individuals at high risk of developing diabetes, supporting early intervention and personalized healthcare.
 
 2.Classification: Classify individuals as diabetic or non-diabetic based on genetic, environmental, and lifestyle factors.
 
-Type of problem:
+**Type of problem:**
 
-Classification (predict diabetes type / diabetes status)
+****Classification (predict diabetes type / diabetes status)**
 
-Target feature
+**Target feature**
+**
+**Target feature 1 - Diabetes_Subtype**
 
-Target feature 1 - Diabetes_Subtype
+**Target Classes / Values**
 
-Target Classes / Values
-
-Class Value Description
+**Class Value Description**
 
 0: "Steroid-Induced Diabetes",
 
@@ -78,7 +78,7 @@ Class Value Description
 
 12: "MODY"
 
-Input feature
+**Input feature**
 
 feature1,feature 2....feature N All the other columns (except target)
 
@@ -148,13 +148,14 @@ feature1,feature 2....feature N All the other columns (except target)
 
 33.Early Onset Symptoms
 
-Outcome:
+**Outcome:**
 
-Diabetes Subtype Prediction Report
+**Diabetes Subtype Prediction Report**
 
-Patient / Sample Input Features
+**Patient / Sample Input Features**
+**
+**Feature	Value****
 
-Feature	Value
 Risk Score	92.1
 Age	45
 Blood Pressure	130
@@ -179,43 +180,41 @@ Physical Activity	Low
 Fasting Glucose	120 mg/dL
 Insulin Level	10 µIU/mL
 …	…
-Sample Output
+**Sample Output**
 
-Predicted Diabetes Subtype Probabilities
+**Predicted Diabetes Subtype Probabilities**
 
-Diabetes Subtype	Probability
+**Diabetes Subtype	Probability**
 Prediabetes	0.65
 Type 1 Diabetes	0.15
 Steroid-Induced Diabetes	0.05
 Wolfram Syndrome	0.02
 NDM (Neonatal Diabetes Mellitus)	0.13
 Predicted Subtype: Prediabetes
-Top Contributing Features
 
-Feature	Contribution / Interpretation
-Genetic Marker 1	  Presence increases genetic risk for Prediabetes.
-BMI	Higher          BMI is strongly associated with Prediabetes risk.
-Diet Score        	Moderate diet score contributes to increased risk.
+**Interpretation**
+	**Genetic Factors:** Presence of Genetic_Marker_1 significantly increases Prediabetes risk.
 
-Interpretation:
+**Lifestyle & Clinical Factors:** High BMI and moderate diet score further elevate risk.
 
-	Genetic Factors: Presence of Genetic_Marker_1 significantly increases Prediabetes risk.
+	**Model Insight:** Effectively captures complex interactions between genetic, clinical, and lifestyle variables, which may be missed by linear models.
 
-	Lifestyle & Clinical Factors: High BMI and moderate diet score further elevate risk.
-
-	Model Insight: Effectively captures complex interactions between genetic, clinical, and lifestyle variables, which may be missed by linear models.
-
-Sample Final Decision
+**Sample Final Decision**
 
 Chosen Model
 
-•	Reason for Selection: High accuracy, interpretability, and strong performance in multiclass diabetes subtype prediction.
+•	**Reason for Selection:** High accuracy, interpretability, and strong performance in multiclass diabetes subtype prediction.
 
-•	Final Prediction: Wolcott-Rallison Syndrome (55.95%)
+•	**Final Prediction:** Wolcott-Rallison Syndrome (55.95%)
 
 •	Although Prediabetes had the highest single-class probability (0.65), the final prediction incorporates overall model confidence, clinical relevance, and ensemble decision logic to ensure a data-driven and clinically meaningful outcome.
 
-Information about the dataset
+**Steps taken in projects:**
+
+**STAGE-1**
+Dateset selection with Initial EDA
+
+**Information about the dataset**
 
 
 	Shape of the dataset:70000,34
@@ -232,45 +231,101 @@ Information about the dataset
 
 	Checking the nulls values:0
 
-What are the algorithms you are going to use?
+**What are the algorithms you are going to use?**
 
 	For classification tasks like diabetes prediction,algorithm
 
-	Logistic Regression: A fundamental algorithm for binary classification.
+	**Logistic Regression:** A fundamental algorithm for binary classification.
 
-	Decision Tree Classifier: Decision Tree Classifier: Provides clear decision-making logic.
+	**Decision Tree Classifier:** Decision Tree Classifier: Provides clear decision-making logic.
 
-	Random Forest Classifier: Random Forest Classifier: An ensemble method that reduces overfitting.
+	**Random Forest Classifier:** Random Forest Classifier: An ensemble method that reduces overfitting.
 
-	Gradient Boosting Machines (GBM): Gradient Boosting Machines (GBM): Builds models sequentially to correct errors. Support Vector Machine (SVM): Effective in high-dimensional spaces.
+	**Gradient Boosting Machines (GBM)**: Gradient Boosting Machines (GBM): Builds models sequentially to correct errors. Support Vector Machine (SVM): Effective in high-dimensional spaces.
 
-	K-Nearest Neighbors:K-Nearest Neighbors: (Classifies based on proximity to neighbors.KNN)
+	**K-Nearest Neighbors:K-Nearest Neighbors:** (Classifies based on proximity to neighbors.KNN)
 
-	Naive Bayes: Assumes independence among features.
+	**Naive Bayes:** Assumes independence among features.
 
-📈 Model Evaluation Metrics
+**📈 Model Evaluation Metrics**
 
-	Accuracy: Proportion of correct predictions.
+	**Accuracy:** Proportion of correct predictions.
 
-	Precision:Proportion of positive predictions that are actually correct.
+	**Precision:** Proportion of positive predictions that are actually correct.
 
-	Recall (Sensitivity): Proportion of actual positives correctly identified.
+	**Recall (Sensitivity):** Proportion of actual positives correctly identified.
 
-	F1-Score:Harmonic mean of precision and recall.
+	**F1-Score:** Harmonic mean of precision and recall.
 
-	Area Under ROC Curve (AUC-ROC):Performance measurement for classification problems at various thresholds settings.
+	**Area Under ROC Curve (AUC-ROC):** Performance measurement for classification problems at various thresholds settings.
 
-Perform Hyperparameter Tuning
+**Perform Hyperparameter Tuning**
 
 Utilize techniques like Grid Search or Randomized Search to find the best hyperparameters:
-	Grid Search: Exhaustively tests all combinations in the hyperparameter grid.
+	**Grid Search:** Exhaustively tests all combinations in the hyperparameter grid.
 
-	Randomized Search: Samples a fixed number of hyperparameter combinations from the grid, offering a balance between exploration and computational efficiency.
+	**Randomized Search:** Samples a fixed number of hyperparameter combinations from the grid, offering a balance between exploration and computational efficiency.
 
 	->This dataset going to use Randomized Search CV
 
-Evaluate Model Performance
+**Evaluate Model Performance**
 
 	After tuning, assess the model’s performance using metrics like Accuracy, Precision, Recall, F1-Score, and AUC-ROC
 	
-“Final Sample Input & Output Prediction — Hyperparameter Tuning with RandomizedSearchCV and Combined Classifier Models”
+**“Final Sample Input & Output Prediction — Hyperparameter Tuning with RandomizedSearchCV and Combined Classifier Models”**
+
+
+**STAGE-2**
+
+EDA (Visualization) and Pre-processing
+
+**Outliers and Skewness**
+**Steps:**
+1.	Identify numeric columns
+2.	Shape Before Removing Outliers
+3.	Skewness Before Outlier Removal
+4.	Boxplots Before Removing Outliers
+5.	Removing Outliers Using IQR Method
+6.	Shape After Removing Outliers
+7.	Skewness After Outlier Removal
+8.	Boxplots After Removing Outliers
+9.	Compare histograms / KDE before vs after display
+10.	Applying Transformations (Log/Square Root)
+11.	Skewness After Transformation
+12.	Boxplots After Transformation
+**Visualizations**
+1.Univariate
+2.Bivariate
+3.Multivariate
+
+**STAGE-3**
+**Feature Selection and Model Building (using multiple models)**
+**Feature Engineering
+Feature Creation**
+**Separate features and target
+-->Feature Scaling
+-->Feature Selection
+Model Building
+-->Model Building (using multiple models)
+-->Train the selected  best model**
+
+**STAGE-4**
+**Model Evaluation and Comparison**
+**-->RandomizedSearchCV hyperparameter tuning
+RandomForestClassifier**
+
+**Diabetes Type Prediction Using Random Forest (Tuned with RandomizedSearchCV)**
+
+**Hyperparameter Tuning RandomizedSearchCV Combine three classifers model**
+
+**“Final Sample Input & Output Prediction — Hyperparameter Tuning with RandomizedSearchCV and Combined Classifier Models”**
+
+**"Multimodel Diabetes Type Prediction with Probability Visualization"**
+
+**Final Summary – Multimodel Diabetes Type Prediction**
+
+**Future Enhancements**
+
+**Model Optimization**
+
+
