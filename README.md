@@ -1,14 +1,13 @@
-
 <p align="center">
   <img src="https://cdn.dribbble.com/users/1162077/screenshots/3848914/programmer.gif" width="600" alt="AI & Diabetes Prediction Banner">
 </p>
 
-<h1 align="center">🧬 Comprehensive Diabetes Dataset with Genetic, Environmental, and Lifestyle Factors</h1>
 
+
+
+<h1 align="center">🧬 Comprehensive Diabetes Dataset with Genetic, Environmental, and Lifestyle Factors</h1>
 <p align="center">
-  <img src="https://github.com/pragyy/datascience-readme-template/blob/main/Headerheader.jpg" 
-       width="600" 
-       alt="Data Science Header">
+  <img src="https://github.com/Sripriya-DSML/Main_project-ML-Comprehensive-Diabetes-Dataset-with-Genetic-Environmental-and-Lifestyle-Factors/raw/main/Data-Science-Machine-Learning.jpg.webp" width="600" alt="Data Science and Machine Learning">
 </p>
 
 
