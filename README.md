@@ -293,9 +293,13 @@ EDA (Visualization) and Pre-processing
 10.	Applying Transformations (Log/Square Root)
 11.	Skewness After Transformation
 12.	Boxplots After Transformation
+
 **Visualizations**
+
 1.Univariate
+
 2.Bivariate
+
 3.Multivariate
 
 **STAGE-3**
