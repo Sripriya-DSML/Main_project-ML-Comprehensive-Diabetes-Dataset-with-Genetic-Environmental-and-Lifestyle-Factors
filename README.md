@@ -330,18 +330,18 @@ Model Building
 
 RandomForestClassifier**
 
-**Diabetes Type Prediction Using Random Forest (Tuned with RandomizedSearchCV)**
+@**Diabetes Type Prediction Using Random Forest (Tuned with RandomizedSearchCV)**
 
-**Hyperparameter Tuning RandomizedSearchCV Combine three classifers model**
+@**Hyperparameter Tuning RandomizedSearchCV Combine three classifers model**
 
-**“Final Sample Input & Output Prediction — Hyperparameter Tuning with RandomizedSearchCV and Combined Classifier Models”**
+@**“Final Sample Input & Output Prediction — Hyperparameter Tuning with RandomizedSearchCV and Combined Classifier Models”**
 
-**"Multimodel Diabetes Type Prediction with Probability Visualization"**
+@**"Multimodel Diabetes Type Prediction with Probability Visualization"**
 
-**Final Summary – Multimodel Diabetes Type Prediction**
+@**Final Summary – Multimodel Diabetes Type Prediction**
 
-**Future Enhancements**
+@**Future Enhancements**
 
-**Model Optimization**
+@**Model Optimization**
 
 
