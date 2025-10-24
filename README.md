@@ -299,19 +299,31 @@ EDA (Visualization) and Pre-processing
 3.Multivariate
 
 **STAGE-3**
+
 **Feature Selection and Model Building (using multiple models)**
+
 **Feature Engineering
+
 Feature Creation**
+
 **Separate features and target
+
 -->Feature Scaling
+
 -->Feature Selection
+
 Model Building
+
 -->Model Building (using multiple models)
+
 -->Train the selected  best model**
 
 **STAGE-4**
+
 **Model Evaluation and Comparison**
+
 **-->RandomizedSearchCV hyperparameter tuning
+
 RandomForestClassifier**
 
 **Diabetes Type Prediction Using Random Forest (Tuned with RandomizedSearchCV)**
